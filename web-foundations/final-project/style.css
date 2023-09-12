@@ -1,0 +1,45 @@
+.container {
+  height: 200px;
+  max-width: 100%;
+  background-color: gray;
+}
+
+img {
+  border: 1px solid black;
+}
+
+.table-bordered .table-row {
+  border: 1px solid #174f86;
+}
+
+.custom-row {
+  border-top: 1px solid #36638f;
+  border-bottom: 0.5px solid #36638f;
+  border-left: 1px solid #36638f;
+  border-right: 1px solid #36638f;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.col:hover {
+  background-color: #337254; /* Change the background color to your desired color */
+}
+
+.panel {
+  height: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+.footer{
+    background-color: #f2f2f2;
+      padding: 20px;
+      text-align: left;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+}
+
+.navbar-brand{
+    text-shadow: 2px 3px grey;
+}

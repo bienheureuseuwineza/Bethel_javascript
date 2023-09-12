@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 25px;
+}
+
+header {
+  text-align: center;
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  color: red;
+  padding: 20px;
+}
+
+.Paragraph1 {
+  color: cadetblue;
+  font-size: 1.2em; /* <-- add this line */
+  font-weight: 300; /* <-- add this line */
+  text-align: justify;
+}
+#lastParagraph {
+  color: blue;
+  background-color: #00a0f0;
+}
+header {
+  font-family: "Trebuchet MS";
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+label,
+button {
+  font-family: "Roboto", sans-serif;
+  display: block; /* ⬅︎ ADD THIS LINE */
+}
+form {
+  border: 5px solid magenta; /* ⬅︎ UPDATE THIS LINE */
+  border-radius: 10px;
+}
+.linedUp {
+  display: inline;
+}

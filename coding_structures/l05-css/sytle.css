@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  color: red;
+}
+div p {
+  color: green;
+}
+
+.Paragraph1 {
+  color: cadetblue;
+}
+#lastParagraph {
+  color: blue;
+  background-color: #00a0f0;
+}

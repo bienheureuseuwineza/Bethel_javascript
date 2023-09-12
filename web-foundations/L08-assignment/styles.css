@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-item {
+  background-color: darkgray;
+  padding: 10px;
+  margin: 2px;
+  font-weight:bold;
+}
+
+.messages-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.message {
+  border: 1.5px solid black;
+  padding: 25px;
+  margin: 5px;
+}
+
+.message-title {
+ 
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.message-right {
+  justify-content: flex-end;
+  border: solid;
+  text-align: end;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.message-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
